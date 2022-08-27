@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-container {
+    position: relative;
+    max-width: 30rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+.title > p {
+    text-align: center;
+    font-weight: 300;
+} 
+
+.text-input p {
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+input.text {
+    width: 100%;
+    height: 2rem;
+    text-indent: 1rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type=color] {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2px;
+    appearance: none;
+    border: none;
+}
+
+input[type=range] {
+    width: 100%;
+    appearance: none;
+    background-color: rgb(207, 207, 207);
+    height: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: orange;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.margin {
+    margin-top: 1rem;
+}
+
+.size p, .margin p {
+    margin: 5px 0 10px 0;
+    font-weight: 300;
+}
+
+.color-picker {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main, .bg-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main p, .bg-color p {
+    font-weight: 300;
+}
+
+.imgFormat {
+    display: flex;
+    justify-content: space-around;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.format-box {
+    padding: 5px 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.format-box label {
+    margin-left: 10px;
+}
+
+button{
+    width: max-content;
+    position: relative;
+    margin: auto;
+    padding: .7rem 1.4rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.download-btn {
+    width: max-content;
+    position: relative;
+    margin: auto;
+    padding: .7rem 1.4rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid orange;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.qrcode {
+    position: relative;
+    margin: auto;
+}
