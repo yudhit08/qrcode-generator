@@ -57,7 +57,7 @@ function Card() {
             );
             setDownload(true);
         } else {
-            swal('Perhatian', 'Ketik teks yang ingin Anda buat Kode QR-nya', 'warning')
+            swal('Perhatian', 'Masukkan text/URL yang ingin anda jadikan Kode QR', 'warning')
         }
     }
 
