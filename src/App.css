@@ -98,7 +98,7 @@ input[type=range]::-webkit-slider-thumb {
 
 .imgFormat {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: .5rem;
     flex-wrap: wrap;
     margin-top: 2rem;
